@@ -1,0 +1,75 @@
+/* Write your CSS here */
+
+.main-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139, #a35200);
+  min-height: 100vh;
+}
+
+.main-card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+  min-height: 550px;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.main-heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.main-paragraph {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.image-logo {
+  height: 45%;
+  width: 45%;
+}
+
+.button {
+  color: #a35200;
+  background-color: #f9d423;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  height: 30px;
+  width: 80px;
+  font-weight: 600;
+  margin-top: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+.para-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px;
+  padding: 60px;
+}
+
+@media screen and (min-height: 765px) {
+  .para-container {
+    flex-direction: column;
+  }
+}
+
+.details-para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 10px;
+  font-weight: 500;
+}
